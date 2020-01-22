@@ -166,7 +166,7 @@ yr_renovated <- ggplot(dataset_yr_r, aes(x=yr_period, y=price, fill=yr_period)) 
 
 grid.arrange(waterfront, condition, grade, yr_built, yr_renovated, nrow=3)
 
-# Step 3 £¨EDA): explore zip code vs. price 
+# Step 3 Â£Â¨EDA): explore zip code vs. price 
 library(sf)
 library(raster)
 library(spData)
